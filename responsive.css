@@ -267,8 +267,14 @@
         margin-top: 50px;
     }
     
+    
 }
-
+@media screen and (max-width: 500px){
+    .ft-rt h5 {
+        color: white;
+        font-size: 5vw;
+    }
+}
 
 
 

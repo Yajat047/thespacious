@@ -251,7 +251,24 @@
     .more {
         align-self: center;
     }
+    .ft-top{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .ft-rt h5 {
+        color: white;
+        font-size: 3vw;
+    }
+    .rt-2{
+        margin-top: 50px;
+    }
+    .rt-3{
+        margin-top: 50px;
+    }
+    
 }
+
 
 
 

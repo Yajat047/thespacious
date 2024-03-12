@@ -86,10 +86,10 @@
         gap: 20px;
     }
     .ourstory {
-        font-size: 16px; /* Adjust the font size as needed for smaller screens */
+        font-size: 16px; 
     }
 
-    /* Increase font size for headings in smaller screens */
+
     .newsletter, .footer {
         flex-direction: column;
         align-items: center;
@@ -128,7 +128,6 @@
 }
 /* Adjustments for responsiveness */
 @media screen and (max-width: 768px) {
-    /* Define a media query for screens with a maximum width of 768px */
 @media only screen and (max-width: 768px) {
     /* Hide the "Layer 35" and "Layer 36" images */
     .blog-rt .rt-l,
@@ -190,23 +189,20 @@
     justify-content: flex-end;
 }
 
-/* Media query for small screens */
-/* Media query for small screens */
-/* Media query for small screens */
+
 @media screen and (max-width: 768px) {
     /* Show hamburger menu button and hide navigation links */
     .hamburger {
         display: block;
         z-index: 9999; /* Ensure it appears above other elements */
     }
-    /* Add this CSS to your existing style.css file or include it in a <style> tag in your HTML */
+  
 
-    /* Style for the hamburger button */
     .hamburger {
-        background: transparent; /* Set the background to transparent */
-        border: none; /* Remove the border */
-        cursor: pointer; /* Set cursor to pointer for better user interaction */
-        padding: 0; /* Remove any padding */
+        background: transparent; 
+        border: none; 
+        cursor: pointer; 
+        padding: 0; 
     }
 
     /* Style for the hamburger icon */
@@ -228,7 +224,7 @@
         right: 0;
         background-color: #f9f9f9;
         width: 100%;
-        z-index: 9999; /* Ensure it appears above other elements */
+        z-index: 9999; 
     }
     .nav-links.active ul {
         padding: 0;
@@ -238,7 +234,7 @@
     }
     .nav-links ul li a {
         text-decoration: none;
-        color: #333; /* Change color to your desired color */
+        color: #333;
     }
     /* Style for vertical layout */
     .nav-links.vertical ul {
